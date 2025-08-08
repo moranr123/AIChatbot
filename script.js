@@ -1,7 +1,7 @@
 // Configuration
 const CONFIG = {
-    // The API key should be in your .env file
-    API_KEY: process.env.OPENAI_API_KEY,
+    // The API key is loaded from config.js
+    API_KEY: OPENAI_API_KEY,
     API_URL: 'https://api.openai.com/v1/chat/completions',
     MODEL: 'gpt-3.5-turbo',
     MAX_TOKENS: 150,
